@@ -1,29 +1,29 @@
 
 #isim Listesini tanımla 
-kisiler=[]
+mans=[]
 
 
 #kisi isimlerini ekrana yazdırma 
 x=input("isim giriniz:")
-kisiler.append(x)
+mans.append(x)
 y=input("isim giriniz:")
-kisiler.append(y)
+mans.append(y)
 z=input("isim giriniz:")
-kisiler.append(z)
+mans.append(z)
 print("Liste:")
-print(kisiler)
+print(mans)
 
 #Liste uzunlugunu hesaplama 
 print("Liste uzunlugu:")
-uzunluk= len(kisiler)
+uzunluk= len(mans)
 print(uzunluk)
 
 #Listede 2. kisinin ismini ekrana yazdıralım
 print("Listedeki 2. kisi:")
-print(kisiler[1])
+print(mans[1])
 
 
 #Listedeki son ismi  çıkarma ve ekrana yazdırma
-kisiler.pop()
+mans.pop()
 print("Listedeki son kisi cıkarıldı,Yeni Liste:")
-print(kisiler)
+print(mans)
